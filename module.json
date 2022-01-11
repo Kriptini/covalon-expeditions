@@ -1,0 +1,21 @@
+{
+    "name": "covalon-expeditions",
+    "title": "Covalon Expeditions",
+    "description": "This module contains the content for Covalon's expedition adventure type.",
+    "author": "Kipza Quickclaw",
+    "version": "0.2",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9.241",
+    "packs": [
+		{
+			"name": "covalon-expeditions-ikouga",
+			"label": "Covalon Expeditions - Ikouga",
+			"path": "./packs/covalon-expeditions-ikouga.db",
+			"entity": "JournalEntry",
+			"module": "covalon-expeditions"
+		}
+	],
+	"url": "https://github.com/Kriptini/covalon-expeditions",
+    "manifest": "https://github.com/Kriptini/covalon-expeditions/releases/latest/download/module.json",
+    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/0.2/module.zip"
+}
