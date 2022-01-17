@@ -21,7 +21,7 @@
       "entity": "JournalEntry",
       "module": "covalon-expeditions",
       "type": "JournalEntry",
-      "private": false
+      "private": true
     }
   ],
   "system": [],
