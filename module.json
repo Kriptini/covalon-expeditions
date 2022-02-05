@@ -23,7 +23,7 @@
             "type": "JournalEntry",
             "private": true
         },
-		{
+	{
 			"name": "covalon-expeditions-ikouga-scenes",
 			"label": "Covalon Expeditions - Ikouga Scenes",
 			"path": "./packs/covalon-expeditions-ikouga-scenes.db",
@@ -31,8 +31,8 @@
 			"module": "covalon-expeditions",
 			"type": "Scene",
 			"private": true
-		},
-		{
+	},
+	{
 			"name": "covalon-expeditions-ikouga-actors",
 			"label": "Covalon Expeditions - Ikouga Actors",
 			"path": "./packs/covalon-expeditions-ikouga-actors.db",
@@ -40,7 +40,7 @@
 			"module": "covalon-expeditions",
 			"type": "Actor",
 			"private": true
-		}
+	}
     ],
     "system": [],
     "dependencies": [],
