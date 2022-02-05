@@ -6,9 +6,9 @@
     "authors": [],
     "url": "https://github.com/Kriptini/covalon-expeditions",
     "flags": {},
-    "version": "1.3",
-    "minimumCoreVersion": "0.8.9",
-    "compatibleCoreVersion": "9.242",
+    "version": "1.4",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9.249",
     "scripts": [],
     "esmodules": [],
     "styles": [],
@@ -22,13 +22,31 @@
             "module": "covalon-expeditions",
             "type": "JournalEntry",
             "private": true
-        }
+        },
+		{
+			"name": "covalon-expeditions-ikouga-scenes",
+			"label": "Covalon Expeditions - Ikouga Scenes",
+			"path": "./packs/covalon-expeditions-ikouga-scenes.db",
+			"entity": "Scene",
+			"module": "covalon-expeditions",
+			"type": "Scene",
+			"private": true
+		},
+		{
+			"name": "covalon-expeditions-ikouga-actors",
+			"label": "Covalon Expeditions - Ikouga Actors",
+			"path": "./packs/covalon-expeditions-ikouga-actors.db",
+			"entity": "Actor",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		}
     ],
     "system": [],
     "dependencies": [],
     "socket": false,
     "manifest": "https://github.com/Kriptini/covalon-expeditions/releases/latest/download/module.json",
-    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v1.3/module.zip",
+    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v1.4/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false
