@@ -6,7 +6,7 @@
     "authors": [],
     "url": "https://github.com/Kriptini/covalon-expeditions",
     "flags": {},
-    "version": "1.5",
+    "version": "2.0",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9.249",
     "scripts": [],
@@ -23,30 +23,48 @@
             "type": "JournalEntry",
             "private": true
         },
-	{
-			"name": "covalon-expeditions-ikouga-scenes",
-			"label": "Covalon Expeditions - Ikouga Scenes",
-			"path": "./packs/covalon-expeditions-ikouga-scenes.db",
+        {
+            "name": "covalon-expeditions-ikouga-scenes",
+            "label": "Covalon Expeditions - Ikouga Scenes",
+            "path": "./packs/covalon-expeditions-ikouga-scenes.db",
+            "entity": "Scene",
+            "module": "covalon-expeditions",
+            "type": "Scene",
+            "private": true
+        },
+        {
+            "name": "covalon-expeditions-ikouga-actors",
+            "label": "Covalon Expeditions - Ikouga Actors",
+            "path": "./packs/covalon-expeditions-ikouga-actors.db",
+            "entity": "Actor",
+            "module": "covalon-expeditions",
+            "type": "Actor",
+            "private": true
+        },
+		{
+			"name": "covalon-expeditions-gornlar-scenes",
+			"label": "Covalon Expeditions - Gornlar Scenes",
+			"path": "./packs/covalon-expeditions-gornlar-scenes.db",
 			"entity": "Scene",
 			"module": "covalon-expeditions",
 			"type": "Scene",
 			"private": true
-	},
-	{
-			"name": "covalon-expeditions-ikouga-actors",
-			"label": "Covalon Expeditions - Ikouga Actors",
-			"path": "./packs/covalon-expeditions-ikouga-actors.db",
-			"entity": "Actor",
+		},
+		{
+			"name": "covalon-expeditions-gornlar",
+			"label": "Covalon Expeditions - Gornlar",
+			"path": "./packs/covalon-expeditions-gornlar.db",
+			"entity": "JournalEntry",
 			"module": "covalon-expeditions",
-			"type": "Actor",
+			"type": "JournalEntry",
 			"private": true
-	}
+		}
     ],
     "system": [],
     "dependencies": [],
     "socket": false,
     "manifest": "https://github.com/Kriptini/covalon-expeditions/releases/latest/download/module.json",
-    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v1.5/module.zip",
+    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v2.0/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false
