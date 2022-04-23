@@ -6,9 +6,9 @@
     "authors": [],
     "url": "https://github.com/Kriptini/covalon-expeditions",
     "flags": {},
-    "version": "2.5",
+    "version": "2.6",
     "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9.255",
+    "compatibleCoreVersion": "9.269",
     "scripts": [],
     "esmodules": [],
     "styles": [],
@@ -59,15 +59,15 @@
             "type": "JournalEntry",
             "private": true
         },
-		{
-			"name": "covalon-expeditions-gornlar-actors",
+        {
+            "name": "covalon-expeditions-gornlar-actors",
             "label": "Covalon Expeditions - Gornlar Actors",
             "path": "./packs/covalon-expeditions-gornlar-actors.db",
             "entity": "Actor",
             "module": "covalon-expeditions",
             "type": "Actor",
             "private": true
-		},
+        },
         {
             "name": "covalon-expeditions-taltain-scenes",
             "label": "Covalon Expeditions - Taltain Scenes",
@@ -85,13 +85,22 @@
             "module": "covalon-expeditions",
             "type": "JournalEntry",
             "private": true
-        }
+        },
+		{
+			"name": "covalon-expeditions-taltain-actors",
+			"label": "Covalon Expeditions - Taltain Actors",
+			"path": "./packs/covalon-expeditions-taltain-actors.db",
+			"entity": "Actor",
+			"module": "covalon-expeditions",
+			"type": "Actor",
+			"private": true
+		}
     ],
     "system": [],
     "dependencies": [],
     "socket": false,
     "manifest": "https://github.com/Kriptini/covalon-expeditions/releases/latest/download/module.json",
-    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v2.5/module.zip",
+    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v2.6/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false
