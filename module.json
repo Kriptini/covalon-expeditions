@@ -6,7 +6,7 @@
     "authors": [],
     "url": "https://github.com/Kriptini/covalon-expeditions",
     "flags": {},
-    "version": "2.6",
+    "version": "2.6.3",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9.269",
     "scripts": [],
@@ -100,7 +100,7 @@
     "dependencies": [],
     "socket": false,
     "manifest": "https://github.com/Kriptini/covalon-expeditions/releases/latest/download/module.json",
-    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v2.6/module.zip",
+    "download": "https://github.com/Kriptini/covalon-expeditions/releases/download/v2.6.3/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false
